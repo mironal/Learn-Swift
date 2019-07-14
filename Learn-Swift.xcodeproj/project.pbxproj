@@ -10,6 +10,9 @@
 		4E92B97122DADE320071E3A4 /* Learn_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E92B96F22DADE320071E3A4 /* Learn_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E92B97D22DB1A710071E3A4 /* 01-Introduction.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E92B97C22DB1A700071E3A4 /* 01-Introduction.md */; };
 		4E92B97F22DB1A770071E3A4 /* 02-Sequence.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E92B97E22DB1A770071E3A4 /* 02-Sequence.md */; };
+		4E92B9A022DB1DE50071E3A4 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E92B99922DB1D960071E3A4 /* RxCocoa.framework */; };
+		4E92B9A122DB1DE50071E3A4 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E92B99722DB1D960071E3A4 /* RxRelay.framework */; };
+		4E92B9A222DB1DE50071E3A4 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E92B99822DB1D960071E3A4 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,13 @@
 		4E92B97A22DADF960071E3A4 /* Homework.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Homework.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4E92B97C22DB1A700071E3A4 /* 01-Introduction.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "01-Introduction.md"; sourceTree = "<group>"; };
 		4E92B97E22DB1A770071E3A4 /* 02-Sequence.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "02-Sequence.md"; sourceTree = "<group>"; };
+		4E92B99122DB1D7F0071E3A4 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
+		4E92B99222DB1D7F0071E3A4 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/Mac/RxRelay.framework; sourceTree = "<group>"; };
+		4E92B99322DB1D7F0071E3A4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		4E92B99722DB1D960071E3A4 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		4E92B99822DB1D960071E3A4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		4E92B99922DB1D960071E3A4 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		4E92B9A422DB1EB00071E3A4 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +36,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E92B9A022DB1DE50071E3A4 /* RxCocoa.framework in Frameworks */,
+				4E92B9A122DB1DE50071E3A4 /* RxRelay.framework in Frameworks */,
+				4E92B9A222DB1DE50071E3A4 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,9 +49,9 @@
 			isa = PBXGroup;
 			children = (
 				4E92B97822DADEAE0071E3A4 /* Foundation */,
-				4E92B97722DADE700071E3A4 /* RxSwift */,
 				4E92B96E22DADE320071E3A4 /* Learn-Swift */,
 				4E92B96D22DADE320071E3A4 /* Products */,
+				4E92B99022DB1D7F0071E3A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,17 +66,11 @@
 		4E92B96E22DADE320071E3A4 /* Learn-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				4E92B9A322DB1E600071E3A4 /* Rx */,
 				4E92B96F22DADE320071E3A4 /* Learn_Swift.h */,
 				4E92B97022DADE320071E3A4 /* Info.plist */,
 			);
 			path = "Learn-Swift";
-			sourceTree = "<group>";
-		};
-		4E92B97722DADE700071E3A4 /* RxSwift */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RxSwift;
 			sourceTree = "<group>";
 		};
 		4E92B97822DADEAE0071E3A4 /* Foundation */ = {
@@ -74,6 +81,27 @@
 				4E92B97A22DADF960071E3A4 /* Homework.playground */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		4E92B99022DB1D7F0071E3A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E92B99922DB1D960071E3A4 /* RxCocoa.framework */,
+				4E92B99722DB1D960071E3A4 /* RxRelay.framework */,
+				4E92B99822DB1D960071E3A4 /* RxSwift.framework */,
+				4E92B99122DB1D7F0071E3A4 /* RxCocoa.framework */,
+				4E92B99222DB1D7F0071E3A4 /* RxRelay.framework */,
+				4E92B99322DB1D7F0071E3A4 /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E92B9A322DB1E600071E3A4 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				4E92B9A422DB1EB00071E3A4 /* Playground.playground */,
+			);
+			path = Rx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +322,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Learn-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +351,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Learn-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
