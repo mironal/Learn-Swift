@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E90125D22DB5627001ED33A /* 01-Introduction.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "01-Introduction.md"; sourceTree = "<group>"; };
 		4E92B96C22DADE320071E3A4 /* Learn_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Learn_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E92B96F22DADE320071E3A4 /* Learn_Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Learn_Swift.h; sourceTree = "<group>"; };
 		4E92B97022DADE320071E3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				4E92B9A422DB1EB00071E3A4 /* Playground.playground */,
+				4E90125D22DB5627001ED33A /* 01-Introduction.md */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
