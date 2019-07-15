@@ -17,6 +17,11 @@
 
 /* Begin PBXFileReference section */
 		4E90125D22DB5627001ED33A /* 01-Introduction.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "01-Introduction.md"; sourceTree = "<group>"; };
+		4E90125E22DBFD78001ED33A /* 02-Create_and_Subscribe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "02-Create_and_Subscribe.md"; sourceTree = "<group>"; };
+		4E90125F22DC3DBA001ED33A /* 03-Subject_and_Relay.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "03-Subject_and_Relay.md"; sourceTree = "<group>"; };
+		4E90126022DC3EBB001ED33A /* 04-Share.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "04-Share.md"; sourceTree = "<group>"; };
+		4E90126122DC3EF1001ED33A /* 05-Operator.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "05-Operator.md"; sourceTree = "<group>"; };
+		4E90126222DC3F05001ED33A /* 06-Hot_and_Cold.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "06-Hot_and_Cold.md"; sourceTree = "<group>"; };
 		4E92B96C22DADE320071E3A4 /* Learn_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Learn_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E92B96F22DADE320071E3A4 /* Learn_Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Learn_Swift.h; sourceTree = "<group>"; };
 		4E92B97022DADE320071E3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +107,11 @@
 			children = (
 				4E92B9A422DB1EB00071E3A4 /* Playground.playground */,
 				4E90125D22DB5627001ED33A /* 01-Introduction.md */,
+				4E90125E22DBFD78001ED33A /* 02-Create_and_Subscribe.md */,
+				4E90125F22DC3DBA001ED33A /* 03-Subject_and_Relay.md */,
+				4E90126022DC3EBB001ED33A /* 04-Share.md */,
+				4E90126122DC3EF1001ED33A /* 05-Operator.md */,
+				4E90126222DC3F05001ED33A /* 06-Hot_and_Cold.md */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
