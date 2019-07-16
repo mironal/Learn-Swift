@@ -1,20 +1,7 @@
 import UIKit
 import RxSwift
 import RxRelay
-var str = "Hello, playground"
 
-let subject = BehaviorSubject(value: 0)
-
-_ = subject.subscribe {
-    print("1", $0)
+_ = Observable<Int>.just(1).flatMap { v -> Observable<Int> in
+    return .just(v * 2)
 }
-
-subject.accept(0)
-subject.accept(1)
-
-
-_ = subject.subscribe {
-    print("2", $0)
-}
-
-subject.accept(2)
