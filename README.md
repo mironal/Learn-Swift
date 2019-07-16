@@ -13,14 +13,19 @@ Apple のドキュメントなどを読むためにはある程度の英語/数�
 
 いくつか課題が用意してあるので、このリポジトリを fork して `Homework.playground` に書いて PR を出してみましょう.
 
-
 ## 想定している読み進め方
 
-1. Foundation の 01 から順に読み進める
-2. Rx の 01 から順に読み進める
+1. [Foundation](https://github.com/mironal/Learn-Swift/tree/master/Foundation) の 01 から順に読み進める
+2. [Rx](https://github.com/mironal/Learn-Swift/tree/master/Learn-Swift/Rx) の 01 から順に読み進める
 
 ※ 課題を見て答えが簡単に想像できるようであればそのドキュメントは読み進めて頂いても大丈夫です.
 
+### プロジェクトのセットアップ
+
+1. fork & clone
+2. `carthage bootstrap`
+3. open `Learn-Swift.xcworkspace`
+4. Build
 
 ## Welcome
 
