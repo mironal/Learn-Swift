@@ -190,7 +190,7 @@ struct CountFiveSequence: Sequence, IteratorProtocol {
 
 let seq = CountFiveSequence()
 
-for item in req {
+for item in seq {
     print(item)
 }
 // 0
@@ -212,7 +212,7 @@ struct InfList: Sequence, IteratorProtocol {
     // ここを実装
 }
 
-let list = InfList().makeIterator()
+var list = InfList().makeIterator()
 
 for i in 0..<100 {
     print(list.next())
