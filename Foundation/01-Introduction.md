@@ -190,7 +190,7 @@ struct CountFiveSequence: Sequence, IteratorProtocol {
 
 let seq = CountFiveSequence()
 
-for item in req {
+for item in seq {
     print(item)
 }
 // 0
